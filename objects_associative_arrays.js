@@ -27,3 +27,7 @@ var book = {
  * Por que?
  */
 
+for(let property in book) {
+    console.log(book[property]);
+}
+
