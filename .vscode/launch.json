@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Iniciar programa",
-            "program": "${workspaceFolder}/testing_properties.js"
+            "program": "${workspaceFolder}/inheritance_object_chain.js"
         }
     ]
 }
