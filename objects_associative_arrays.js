@@ -21,7 +21,7 @@ var book = {
 /**
  * Escribe aqui el código para mostrar en consola 
  * los valores de las propiedades del objeto book
- * utilizando un foe
+ * utilizando un for
  * 
  * Que notacion has utilizado? dot o []
  * Por que?
