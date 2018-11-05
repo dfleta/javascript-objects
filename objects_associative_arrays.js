@@ -25,6 +25,7 @@ var book = {
  * 
  * Que notacion has utilizado? dot o []
  * Por que?
+ * leer libro pag. 120 y 121
  */
 
 for(let property in book) {

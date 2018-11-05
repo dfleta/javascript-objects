@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Iniciar programa",
-            "program": "${workspaceFolder}/objects_associative_arrays.js"
+            "program": "${workspaceFolder}/object_create.js"
         }
     ]
 }
