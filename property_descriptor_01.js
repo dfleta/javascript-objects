@@ -3,6 +3,18 @@
  * 2D cartesian point
  * Polar coordinates of the point
  * 
+ * Property attributes and descriptor object
+ * 
+ * The four attributes of a data property are 
+ * value, writable, enumerable, and configurable. 
+ * Accessor properties don’t have a value attribute 
+ * or a writable attribute: 
+ * their writability is determined by the presence
+ * or absence of a setter.
+ * The four attributes of an accessor property are
+ * get, set, enumerable, and configurable.
+ *
+ * 
  * JavaScript. the Definitive Guide. David Flanagan.
  */
 
@@ -28,12 +40,6 @@ var p = {
     get theta() { return Math.atan2(this.y, this.x); }
 };
 
-/**
- * The four attributes of a data property are value, writable, enumerable, and configurable. 
- * Accessor properties don’t have a value attribute or a writable attribute: 
- * their writability is determined by the presence or absence of a setter.
- * The four attributes of an accessor property are get, set, enumerable, and configurable.
- */
 
 // Returns {value: 1, writable:true, enumerable:true, configurable:true}
 console.log(Object.getOwnPropertyDescriptor(p, "x"));
