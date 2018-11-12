@@ -58,3 +58,4 @@ console.log(Object.getOwnPropertyDescriptor(p, "toString"));
 
 // Returns undefined for properties that doesn't exist
 console.log(Object.getOwnPropertyDescriptor(p, "z"));
+
