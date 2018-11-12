@@ -3,6 +3,8 @@
  * 2D cartesian point
  * Polar coordinates of the point
  * 
+ * Accesor properties are inherited, just as data properties are.
+ * 
  * JavaScript. the Definitive Guide. David Flanagan.
  */
 
