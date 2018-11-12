@@ -56,7 +56,7 @@ console.log(Object.getOwnPropertyDescriptor(o, "y"));
  * the property descriptors for those properties.
  */
 
- 
+// the first argument is the object that is to be modificated 
 var p = Object.defineProperties({}, {
     x: { value: 1, writable: true, enumerable:true, configurable:true },
     y: { value: 1, writable: true, enumerable:true, configurable:true },
